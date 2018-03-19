@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="base.js"></script>
+
+</head>
+
+<body>
+    <!-- <div class="container">
+
+        <h1>NodeGang Master</h1>
+
+        <h2 id="instructor"></h2>
+
+        <label for="name" class="col-lg-2 control-label">NodeGang Master Name</label>
+        <input id="name" type="text">
+
+        <label for="name" class="col-lg-2 control-label">NodeGange Master Age</label>
+        <input id="age" type="text">
+
+        <button id="button">Update NodeGang Master</button>
+
+
+    </div> -->
+    <!-- form div for Master input -->
+    <div class="container">
+        <h1>"Set Instructor" Ethereum Contract</h1>
+        <form>
+            <div class="form-group">
+                <label>Cohort 33 Instructor</label>
+                </br>
+                <span id="countIns"></span>
+                
+                <h2 id="instructor"></h2>
+                <span id="insTrans"></span>
+                <hr>
+
+                <img id="loader" src="https://i.imgur.com/7moTr3w.gif">
+
+                <label for="fName" class="master-name">NodeGang instructor's first name</label>
+                <input class="form-control" id="fName" placeholder="Enter first name of Instructor">
+
+                <label for="lName" class="master-name">NodeGang instructor's last name</label>
+                <input class="form-control" id="lName" placeholder="Enter last name of Instructor">
+                <small class="form-text text-muted">NodeGang authorization only.</small>
+            </div>
+            <div class="form-group">
+                <label for="age">NodeGang instructor's age</label>
+                <input class="form-control" id="age" placeholder="Enter age">
+            </div>
+        </form>
+        <button id="button" class="btn btn-primary">Update New Master</button>
+    </div>
+</body>
+
+</html>

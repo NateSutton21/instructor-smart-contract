@@ -1,0 +1,40 @@
+#loader {
+    width: 50px;
+    display:none;
+}
+
+.btn {
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.master-name {
+    margin-top: 3%;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+body {
+    background-color:#F0F0F0;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+
+
+form {
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+h1 {
+    text-align: center;
+}
+
+small {
+    margin-bottom: 3%;
+}
+
