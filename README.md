@@ -13,4 +13,4 @@ Things learned:
 Ethereum Smart Contract were made using Solidity on the REMIX IDE. Used Web3.js to communicate between the UI and the Ethereum blockchain. Used MetaMask to test/deploy contracts/transactions. 
 
 # tutorial followed:
-https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners
+<a href="https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners">Coursetro by Gary Simon</a> 
